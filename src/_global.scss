@@ -1,0 +1,23 @@
+/**
+ * Global settings
+ */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font: inherit;
+	line-height: inherit;
+	margin: 0;
+	outline: none;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	-ms-overflow-style: scrollbar;
+}
+
+body {
+	min-height: 100%;
+}
