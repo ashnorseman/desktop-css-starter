@@ -54,6 +54,8 @@ th {
  */
 button {
   cursor: pointer; }
+  button:disabled {
+    cursor: not-allowed; }
 
 textarea {
   resize: none; }
