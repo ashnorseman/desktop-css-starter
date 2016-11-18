@@ -20,4 +20,11 @@ html {
 
 body {
 	min-height: 100%;
+
+	&::before {
+		border-top: 1px solid transparent;
+		content: '';
+		display: block;
+		margin-top: -1px;
+	}
 }
