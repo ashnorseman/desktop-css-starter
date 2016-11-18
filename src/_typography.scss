@@ -2,6 +2,18 @@
  * Text
  */
 
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family:
+		-apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto,
+		"Helvetica Neue", Arial,
+		"Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
 a {
 	text-decoration: none;
 }
