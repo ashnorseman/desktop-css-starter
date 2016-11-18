@@ -30,6 +30,8 @@ body {
 
 a {
   text-decoration: none; }
+  a:visited {
+    color: currentColor; }
 
 abbr[title] {
   cursor: help; }
