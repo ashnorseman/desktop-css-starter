@@ -30,7 +30,7 @@ body {
 
 a {
   text-decoration: none; }
-  a:visited {
+  a:link, a:visited {
     color: currentColor; }
 
 abbr[title] {

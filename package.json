@@ -1,6 +1,6 @@
 {
   "name": "desktop-css-starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A css starter using sass for desktop browers",
   "main": "lib/starter.css",
   "scripts": {
