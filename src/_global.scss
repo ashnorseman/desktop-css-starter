@@ -2,15 +2,21 @@
  * Global settings
  */
 
+@-ms-viewport {
+  width: device-width;
+}
+
 *,
 *::before,
 *::after {
+  border: 0 solid;
 	box-sizing: border-box;
 	font: inherit;
 	line-height: inherit;
 	margin: 0;
 	outline: none;
 	padding: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -20,11 +26,5 @@ html {
 
 body {
 	min-height: 100%;
-
-	&::before {
-		border-top: 1px solid transparent;
-		content: '';
-		display: block;
-		margin-top: -1px;
-	}
+  position: relative;
 }

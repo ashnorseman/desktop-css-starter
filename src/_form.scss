@@ -2,6 +2,31 @@
  * Form
  */
 
+button,
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="file"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="reset"],
+[type="search"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+select,
+textarea {
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+}
+
 button {
 	cursor: pointer;
 
@@ -10,20 +35,32 @@ button {
 	}
 }
 
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
 textarea {
 	resize: none;
 }
 
-input[type=search] {
-	-webkit-appearance: textfield;
+[type=search] {
+  -webkit-appearance: textfield;
 }
 
-input[type=number] {
-	-moz-appearance: textfield;
+[type=number] {
+  -moz-appearance: textfield;
 }
 
-::-webkit-inner-spin-button {
-	-webkit-appearance: none;
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+::-webkit-search-cancel-button,
+::-webkit-search-decoration {
+  -webkit-appearance: none;
 }
 
 :invalid {

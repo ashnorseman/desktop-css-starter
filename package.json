@@ -1,12 +1,8 @@
 {
-  "name": "desktop-css-starter",
-  "version": "1.0.6",
-  "description": "A css starter using sass for desktop browers",
+  "name": "responsive-css-starter",
+  "version": "1.0.7",
+  "description": "A css starter for desktop and mobile browers",
   "main": "lib/starter.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ash zhang",
-  "license": "MIT",
-  "devDependencies": {}
+  "license": "MIT"
 }
