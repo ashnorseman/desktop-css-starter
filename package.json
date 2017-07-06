@@ -1,6 +1,6 @@
 {
   "name": "responsive-css-starter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A css starter for desktop and mobile browers",
   "main": "lib/starter.css",
   "author": "Ash zhang",
