@@ -33,6 +33,7 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 a {
+  cursor: pointer;
   text-decoration: none; }
   a:link, a:visited {
     color: currentColor; }
