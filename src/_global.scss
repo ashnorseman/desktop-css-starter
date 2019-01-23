@@ -2,17 +2,12 @@
  * Global settings
  */
 
-@-ms-viewport {
-  width: device-width;
-}
-
 *,
 *::before,
 *::after {
   border: 0 solid;
 	box-sizing: border-box;
 	font: inherit;
-	line-height: inherit;
 	margin: 0;
 	outline: none;
 	padding: 0;

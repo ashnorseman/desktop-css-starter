@@ -1,8 +1,14 @@
 {
   "name": "responsive-css-starter",
-  "version": "1.1.0",
-  "description": "A css starter for desktop and mobile browers",
+  "version": "1.2.0",
+  "description": "A css starter for desktop and mobile browsers",
   "main": "lib/starter.css",
   "author": "Ash zhang",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass src/starter.scss lib/starter.css -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
 }

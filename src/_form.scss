@@ -3,49 +3,19 @@
  */
 
 button,
-[type="date"],
-[type="datetime"],
-[type="datetime-local"],
-[type="email"],
-[type="file"],
-[type="month"],
-[type="number"],
-[type="password"],
-[type="reset"],
-[type="search"],
-[type="tel"],
-[type="text"],
-[type="time"],
-[type="url"],
-[type="week"],
+input,
 select,
 textarea {
-  color: inherit;
-  font-family: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  outline: 0;
-}
-
-button {
-	cursor: pointer;
-
-	&:disabled {
-		cursor: not-allowed;
-	}
-}
-
-select {
   -moz-appearance: none;
   -webkit-appearance: none;
 }
 
-textarea {
-	resize: none;
+button {
+	cursor: pointer;
 }
 
-[type=search] {
-  -webkit-appearance: textfield;
+textarea {
+	resize: none;
 }
 
 [type=number] {
@@ -54,15 +24,14 @@ textarea {
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  margin: 0;
   -webkit-appearance: none;
 }
 
-::-webkit-search-cancel-button,
-::-webkit-search-decoration {
-  -webkit-appearance: none;
+::-ms-clear,
+::-ms-reveal {
+  display: none;
 }
 
-:invalid {
-	box-shadow: none;
+:disabled {
+  cursor: not-allowed;
 }
